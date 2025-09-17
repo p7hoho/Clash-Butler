@@ -8,6 +8,8 @@ fast_mode = false
 subs = [
     "https://raw.githubusercontent.com/ReaJason/Clash-Butler/master/clash.yaml"
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml"
+    "https://raw.githubusercontent.com/faceair/fastsub/refs/heads/main/fastsub.yaml"
+    "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
@@ -34,6 +36,6 @@ timeout = 1000
 
 # 带宽测速配置
 [speed_test]
-enabled = false
+enabled = true
 url = "https://speed.cloudflare.com/__down?bytes=104857600"
 timeout = 3000
